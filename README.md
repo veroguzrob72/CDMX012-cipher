@@ -379,6 +379,10 @@ usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 ### Recursos y temas relacionados
 
+En relación a las instalaciones te compartimos un par de videos:  
+* [Instalación de herramientas en windows](https://youtu.be/wGQjTcVIoiE)  
+* [Instalación de herramientas en macOs](https://youtu.be/57O77XxVtDE)
+
 A continuación un video de Michelle que te lleva a través de la fórmula
 matemática del Cifrado César y un par de cosas más que debes saber para
 resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
