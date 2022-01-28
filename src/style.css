@@ -1,0 +1,36 @@
+body{
+    background-color: #fde4cf;
+    font-family: sans-serif;
+
+}
+
+main{
+        text-align: center;
+}
+
+section{
+        background-color: #a3c4f3;
+        width: 500px;
+        height: 200px;
+        float: left;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        
+        text-align: center;
+
+}
+
+article{
+background-color: #a3c4f3;
+        width: 500px;
+        height: 200px;
+        float: left;
+        border-top-right-radius: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        text-align: center;
+    }
