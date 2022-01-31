@@ -1,5 +1,8 @@
 const cipher = {
   encode: function (numeroSaltos, palabraSimple,) {
+    if(numeroSaltos===null||numeroSaltos===0){
+      throw new TypeError()
+    }
     let palabraFinal= '';
     for (let a=0; a<palabraSimple.length; a++){
       let codAscii = palabraSimple.charCodeAt(a);
@@ -8,15 +11,22 @@ const cipher = {
         let newAscii = String.fromCharCode(cifradoCesar)
         palabraFinal+=newAscii
       }
+
       else {
         palabraFinal = palabraFinal + palabraSimple[a];
       }
+        
+
     }
     return palabraFinal;
-  },
+
+    },
 
   decode: function (numeroModif, palabraCod) {
     let mnsjFinal2= '';
+    if(numeroModif===null||numeroModif===0){
+      throw new TypeError()
+    }
     for (let i=0; i<palabraCod.length; i++){
       let codAscii2 = palabraCod.charCodeAt(i);
       if (codAscii2 >=65 && codAscii2 <=90) {

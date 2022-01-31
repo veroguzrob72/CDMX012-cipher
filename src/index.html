@@ -8,33 +8,46 @@
   <body>
     <div id="root">
       <main>
-      <h1>Cifremos una contraseña segura!!</h1>
-      <h3>Has pensado muchas veces que por mas que piesas no puedes hacer una contraseña segura?<br>
-      Entonces llegaste al lugar indicado!!<br>
-      Vamos a crear contraseñas cifradas</h3>
+        EL RINCÓN DE LOS SECRETOS <br>
       </main>
-
-      <section>
-      Codifica<br>
-      Ingresa una palabra <input type="text" id="wordSimple" ><br>
-      Ingresa tu número de codificación 
-      <input type="number" id="numberCod" min="1" max="33"><br>
-      <input type="button" id="btnCipher" value="Enviar"><br> 
-      Tu palabra codificada <h2 id="wordCipher" ></h2>
+      <section id="descripcion">
+        <br>Tienes muchas contraseñas y sueles olvidarlas? <br>
+        Quieres mandarle un mensaje romantico a tu novio pero no quieres que alguien mas lo lea? <br>
+        Quieres platicarle a tu super amix el ultimo chisme de manera divertida?<br>
+        Entonces llegaste al lugar indicado!! <br>
       </section>
-
-      <article>
-      Decodifica<br>
-      Ingresa tu palabra codificada <input type="text" id="wordCod"><br>
-      Ingresa tu número de codificación <input type="number" id="numberCod2" min="1" max="33"><br>
-      <input type="button" id="btndecipher" value="Enviar"><br>
-      Tu palabra decodificada <h2 id="message"></h2>
-      </article>
-       
+      <section id="instrucciones">
+        <br>Instrucciones <br>
+        1) Escribe tu contraseña, mensajito, chismecito... en la caja de texto superior <br>
+        2) Selecciona un número que será la clave para esconder (o descubrir) tu secreto. <br>
+        3) Dale clic al botón de enviar. <br>
+        4) Y recibirás en la caja inferior tu secreto cifrado (o descifrado)!! <br>
+      </section>
+      <section id="codificacion" class="caja">
+        Cifra<br>
+        <br>Escribe aqui tu texto <textarea name="" id="wordSimple" cols="30" rows="6" ></textarea><br>
+        <br>Selecciona tu numero <br> <input type="number" id="numberCod" min="1" max="33" ><br>
+        <br><input type="button" id="btnCipher" value="Enviar"><br> 
+        <br>Este es tu texto Secreto <textarea name="" id="wordCipher" cols="30" rows="6"></textarea><br>
+      </section>
+      <section id="decodificacion" class="caja">
+        Descifra<br>
+        <br>Escribe aqui tu texto secreto <textarea name="" id="wordCod" cols="30" rows="6"></textarea><br>
+        <br>Selecciona tu numero <br> <input type="number" id="numberCod2" min="1" max="33"><br>
+        <br><input type="button" id="btndecipher" value="Enviar"><br>
+       <br>Descubre el secreto de tu texto <textarea name="" id="message" cols="30" rows="6"></textarea>
+      </section>
+      <section id="resetear">
+        <button id="limpiar">Limpiar texto</button> <br><br>
+      </section>
+      <footer>
+        Página creada por Veronica Guzman (Laboratoria.la)
+      </footer>
       <script src="index.js" type="module"></script>
 
     </div>  
 
   </body>
   
+
 </html>

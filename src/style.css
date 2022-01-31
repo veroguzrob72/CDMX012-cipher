@@ -1,36 +1,71 @@
 body{
-    background-color: #fde4cf;
-    font-family: sans-serif;
-
+        background-color: #ffe8d6;
+        font-family: Tahoma;
+        
 }
 
 main{
         text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+
 }
 
-section{
-        background-color: #a3c4f3;
-        width: 500px;
-        height: 200px;
-        float: left;
-        border-top-right-radius: 50px;
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
+#descripcion{
+        text-align: justify;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 150px;
+}
+
+#instrucciones{
+        text-align: justify;
+        font-size: 16px;
+        font-weight: normal;
+        margin-left: 30px;
         
-        text-align: center;
-
 }
 
-article{
-background-color: #a3c4f3;
-        width: 500px;
-        height: 200px;
-        float: left;
-        border-top-right-radius: 50px;
-        border-top-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-        border-bottom-right-radius: 50px;
-        border-top-right-radius: 50px;
+.caja{
         text-align: center;
+        padding: 30px;
+        width: 300px;
+        background-color: #b7b7a4;
+        border-bottom-left-radius: 10px;      
+        border-bottom-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+}
+
+#codificacion{
+        float: left;
+        margin-left: 250px;
+}
+
+#decodificacion{
+        float: right;
+        margin-right: 250px;
+}
+
+#resetear{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        clear: both;
+        margin-bottom: 20px;    
+ 
+                
+}
+
+footer{ 
+        clear: both;
+        padding: 30px;
+        text-align: center;
+        font-size: 12px;
+        color: #ffe8d6;   
+        background-color: #6b705c;
     }
