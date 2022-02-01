@@ -21,6 +21,3 @@ const botonDecifrar = document.getElementById('btndecipher');
    }  
 
 )
-
-const botonLimpiar = document.getElementById('limpiar')
-   botonLimpiar.addEventListener('click').reset;
